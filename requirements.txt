@@ -1,0 +1,6 @@
+# Runtime dependencies actually imported by this repository.
+numpy==2.3.4
+httpx==0.28.1
+openai==2.5.0
+PyYAML==6.0.3
+tqdm==4.67.1
