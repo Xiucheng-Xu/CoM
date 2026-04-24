@@ -3,6 +3,7 @@
 CoM is a lightweight research codebase for memory-augmented long-context question answering and evaluation. This repository provides a shared implementation of the CoM pipeline and runnable scripts for `LongMemEval` and `LoCoMo`, including retrieval, chain construction, response generation, and LLM-as-a-Judge evaluation utilities. 
 
 🎉🎉🎉 This work was accepted to ACL 2026 Main Conference. 
+
 📬📬📬 For any questions, please contact WeChat `xuxiucheng25` or email `xuxiucheng24s@ict.ac.cn`.
 
 
