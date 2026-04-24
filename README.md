@@ -1,19 +1,10 @@
 # CoM
 
-CoM is a lightweight research codebase for memory-augmented long-context question answering and evaluation.  
-This repository provides a shared implementation of the CoM pipeline and runnable scripts for two benchmarks:
+CoM is a lightweight research codebase for memory-augmented long-context question answering and evaluation. This repository provides a shared implementation of the CoM pipeline and runnable scripts for `LongMemEval` and `LoCoMo`, including retrieval, chain construction, response generation, and LLM-as-a-Judge evaluation utilities. 
 
-- `LongMemEval`
-- `LoCoMo`
+🎉🎉🎉 This work was accepted to ACL 2026 Main Conference. 
+📬📬📬 For any questions, please contact WeChat `xuxiucheng25` or email `xuxiucheng24s@ict.ac.cn`.
 
-The codebase includes retrieval, chain construction, response generation, and LLM-as-a-Judge evaluation utilities.
-
-## Features
-
-- Shared CoM implementation under `src/com`
-- Asynchronous LLM and embedding clients with simple caching
-- End-to-end runners for LongMemEval and LoCoMo
-- Evaluation scripts with evidence recall and judge-based accuracy
 
 ## Repository Structure
 
@@ -55,6 +46,14 @@ Then fill in the fields for:
 - `judge`
 
 The clients are OpenAI-compatible, so both official OpenAI endpoints and compatible local / self-hosted services can be used.
+
+## Dataset Access
+
+The datasets used in this project are available on Google Drive:
+
+- [Download datasets](https://drive.google.com/drive/folders/13PVN5s261_I4DG3PYxf4MxePbaSn_5s6?usp=drive_link)
+
+After downloading, place the files under the `dataset/` directory.
 
 ## Running Experiments
 
